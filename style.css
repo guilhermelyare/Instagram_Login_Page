@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:  14px;
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    background-color: rgb(243, 243, 243);
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.instagram{
+    width: 30%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -100px;
+}
+
+.insta-phone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 90%;
+}
+
+.insta-phone img{
+    height: 50rem;
+}
+
+.content-column{
+    width: 100%;
+    min-height: 36rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly
+}
+
+.item-column{
+    background-color: white;
+    border: 1px solid rgb(211, 211, 211);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.continue{
+    height: 40vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.insta-logo{
+    height: 2.5rem;
+    margin-top: 15px;
+}
+
+.foto-perfil{
+    border-radius: 50%;
+    overflow: hidden;
+    height: 7rem;
+}
+
+.insta-login {
+    background-color: #0095f6;
+    color: #ffffff;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.insta-logout {
+    color: #0095f6;
+    margin-bottom: 14px;
+}
+
+.not-continue{
+    height: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+    color: rgb(160, 160, 160);
+}
+
+.link-blue{
+    color: #0095f6;
+}
+
+.get-app p{
+    display: flex;
+    justify-content: center;
+}
+
+.download {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin: 5px 5px 5px 0px;
+}
+
+.app-download {
+    height: 3rem;
+    width: 10rem;
+    background-size: cover;
+    border-radius: 11px;
+}
+
+.app-download:nth-child(1) {
+    background-image: url('imagens/apple-button.png');
+}
+
+.app-download:nth-child(2) {
+    background-image: url('imagens/googleplay-button.png');
+}
